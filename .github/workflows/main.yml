@@ -12,10 +12,10 @@ jobs:
 
 
     steps:
-      - name: 'Befor'
-        run: ls
-
       - uses: actions/checkout@v3
 
-      - name: 'After'
-        run: ls
+      - name: "Login to Docker hup"
+        run: docker login --username elkerba --password dckr_pat_apVgxPVThZBGKzLQTjA30ahgstA
+
+
+     
